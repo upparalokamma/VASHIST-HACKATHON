@@ -2,6 +2,8 @@
 Attendance monitoring using geolocation ,to avoid proxy and fake attendances
 
 TEAM MEMBERS:
+
+
 UPPARA LOKAMMA-9921004736@klu.ac.in
 VALLURI KUSUMA-99210041127@klu.ac.in
 TATA YOGESWARI-99210041446@klu.ac.in
@@ -9,6 +11,8 @@ KORIVI MAHESWAR REDDY-99210041569@klu.ac.in
 
 
 USECASES:
+
+
 education sector,corporate sector,construction industry,field services and maintainance,event management,healthcare sector,government offices,transportation industry,ratail sector,security services,sports and fitness centers...etc.,
 CHALLENGES:
 1.Accuracy of Geolocation Data: Ensuring the accuracy of geolocation data retrieved from devices can be challenging, especially in areas with poor GPS signal or high interference.
