@@ -21,7 +21,7 @@ CHALLENGES:
 4.Network Connectivity: The system relies on network connectivity to transmit location data, so disruptions in network coverage can affect data transmission and reliability.
 5.Distance Calculation: Accurately calculating the distance between the user and the designated location (e.g., school, office) can be challenging due to factors like road conditions and terrain.
 
-LINK:https://youtu.be/Dyn_Tj_lSYo?si=SQ0_JrgQGjGqdcF9
+LINK:https://youtu.be/Dyn_Tj_lSYo?si=Vo0odWt7dSYRd3ZE
 
 LOGIN URL GENERATING:
 
