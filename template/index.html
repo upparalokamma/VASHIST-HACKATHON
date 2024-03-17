@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Check</title>
+</head>
+<body>
+    <h1>Check Attendance</h1>
+    <p>Allow location access to automatically detect your current location:</p>
+    <button onclick="getLocation()">Get My Location</button>
+    <form id="locationForm" style="display:none;" action="/" method="post">
+        <input type="hidden" id="latitude" name="latitude">
+        <input type="hidden" id="longitude" name="longitude">
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+
+        function showPosition(position) {
+            document.getElementById("latitude").value = position.coords.latitude;
+            document.getElementById("longitude").value = position.coords.longitude;
+            document.getElementById("locationForm").submit();
+        }
+    </script>
+</body>
+</html>

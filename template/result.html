@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Result</title>
+</head>
+<body>
+    <h1>Attendance Result</h1>
+    {% if within_range %}
+        <p>You are within the attendance range of the class.</p>
+    {% else %}
+        <p>You are outside the attendance range of the class.</p>
+    {% endif %}
+</body>
+</html>
